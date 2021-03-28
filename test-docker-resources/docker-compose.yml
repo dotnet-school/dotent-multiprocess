@@ -1,0 +1,10 @@
+
+services:
+  node:
+    build: 
+      context: .
+    deploy:
+      resources:
+        limits:
+          cpus: '0.001'
+          memory: 50M
